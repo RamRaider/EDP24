@@ -1,0 +1,23 @@
+{
+  "addons": {
+    "{d3441d94cb51763f34a3feb2af68bc9e09172257ffa975302bb4da120c857769}": {
+      "updates": [
+        {
+          "version": "0.1",
+          "update_link": "https://github.com/RamRaider/EDP24/blob/main/edp24.zip"
+        },
+        {
+          "version": "0.2",
+          "update_link": "https://github.com/RamRaider/EDP24/blob/main/edp24.zip"
+        },
+        {
+          "version": "0.3",
+          "update_link": "https://github.com/RamRaider/EDP24/blob/main/edp24.zip",
+          "applications": {
+            "gecko": { "strict_min_version": "44" }
+          }
+        }
+      ]
+    }
+  }
+}
