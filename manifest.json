@@ -1,6 +1,5 @@
 {
 	"author":"Andy Powell",
-
 	"manifest_version":3,
 	"version":"1.0",
 	"description": "Remove Ads from EDP24 website articles....",
@@ -17,5 +16,11 @@
 	"icons": {
 	  "48": "./res/img/48-tvg.png",
 	  "96": "./res/img/96-tvg.png"
-	}
+	}/*,
+	"browser_specific_settings": {
+	  "gecko": {
+	  "id":"{d3441d94-cb51-763f-34a3-feb2af68bc9e}",
+		"update_url": "https://raw.githubusercontent.com/RamRaider/EDP24/main/updates.json"
+	  }
+	}*/
 }
