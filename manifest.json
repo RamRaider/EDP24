@@ -1,0 +1,21 @@
+{
+	"author":"Andy Powell",
+
+	"manifest_version":3,
+	"version":"1.0",
+	"description": "Remove Ads from EDP24 website articles....",
+	"name":"edp24",
+	"content_scripts":[
+		{
+			"matches":["*://www.edp24.co.uk/*"],
+			"js":["./res/js/app.js"]
+		}
+	],
+	"permissions": [
+		"scripting"
+	],
+	"icons": {
+	  "48": "./res/img/48-tvg.png",
+	  "96": "./res/img/96-tvg.png"
+	}
+}
